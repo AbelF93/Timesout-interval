@@ -20,11 +20,11 @@ function scndTimer() {
   function aMinPassed(){
     console.log("A minute Passed")
   }
-  setTimeout(aMinPassed,6000);
+  setTimeout(aMinPassed,60000);
 
 //display other minutes
 min = 2;
 setTimeout((function minTimer() {
     setInterval(function() { //start to count seconds
         console.log((min++)+" minutes has passed");
-        }, 6000);}),6000); 
+        }, 60000);}),60000); 
